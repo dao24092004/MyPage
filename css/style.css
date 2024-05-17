@@ -1,0 +1,47 @@
+/* Custom CSS */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+}
+
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    color: white;
+}
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icon {
+    color: white;
+    font-size: 18px;
+    margin-right: 20px; /* Khoảng cách giữa các biểu tượng */
+    text-decoration: none;
+    display: inline-block;
+}
+
+.social-icon i {
+    margin-right: 5px;
+}
+
+.social-icon:last-child {
+    margin-right: 0; /* Loại bỏ margin phải của biểu tượng cuối cùng */
+}
+
+.social-icon:hover {
+    color: #ffc107; /* Thay đổi màu khi hover */
+}
